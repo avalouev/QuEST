@@ -1,11 +1,12 @@
+# QuEST
 QuEST - Anton Valouev
 
 QuEST is a peak caller for ChIP-Seq data described in my original paper.
 
-Citation: "Genome-wide analysis of transcription factor binding sites based on ChIP-Seq data. Valouev A1, Johnson DS, Sundquist A, Medina C, Anton E, Batzoglou S, Myers RM, Sidow A. Nature Methods 2008"
+Citation:
+"Genome-wide analysis of transcription factor binding sites based on ChIP-Seq data. Valouev A1, Johnson DS, Sundquist A, Medina C, Anton E, Batzoglou S, Myers RM, Sidow A. Nature Methods 2008"
 
-================================================================
-Table of Contents
+## Table of Contents
 
 I. License and Terms of Use
 II. Disclosures
@@ -17,9 +18,8 @@ VII. File formats
 VIII. QuEST overview
 IX. FAQ
 
-===============================================================
-I. Licence and Terms of Use
-===============================================================
+
+## I. Licence and Terms of Use
 
 This code is written by Anton Valouev and is copyrighted under
 the Lesser GPL:
