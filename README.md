@@ -41,9 +41,7 @@ Copyright (C) 2009 Anton Valouev
 The author may be contacted via email at: valouev@stanford.edu and
  valouev@gmail.com
 
-==================================================================
-II. Disclosures
-==================================================================
+## II. Disclosures
 
 current version: 2.4
 current development status: stable release
@@ -55,10 +53,9 @@ current development status: stable release
 #                                                               #
 #################################################################
 
-==================================================================
-III. QuEST Reference and Home Page
 
-==================================================================
+## III. QuEST Reference and Home Page
+
 QuEST is a statistical package for analysis of ChIP-Seq data.
 
 If you use QuEST or any derivatives of its results, or any part of
@@ -73,9 +70,8 @@ publications, patents and code:
 QuEST Home Page:
 http://mendel.stanford.edu/downloads/quest/
 
-==============================================================
-IV. Changes
-==============================================================
+## IV. Changes
+
 QuEST 2.4
    1. Incorporated region filter. If background data is provided, QuEST
       will scan the background data to detect artifactual regions where
@@ -187,9 +183,7 @@ QuEST 2.0
       by the total number of peaks identified.
 
 
-===============================================================
-V. Software Summary
-===============================================================
+## V. Software Summary
 
 Target OS: Unix-type systems
 
@@ -229,9 +223,7 @@ The following alignment formats are currently supported in QuEST (see below for 
    you need either the analysis path or the genome table, but not 
    both, or else the script will not run.
 
-==============================================================
-VI. Quick Start Guide
-==============================================================
+## VI. Quick Start Guide
 
 To run QuEST, the following commands should execute on your system:
 make, g++, perl. 
@@ -333,9 +325,7 @@ Report files:
    module_outputs/peak_filter.ChIP.report.txt
    contains information about result of application of QuEST filters on regions and peaks
 
-==============================================================
-VII. File Formats
-==============================================================
+## VII. File Formats
 The following input file formats are supported in QuEST:
 
 1.  Read aligment formats
@@ -526,9 +516,7 @@ The following output file formats are adopted in QuEST:
    unnormalized CDP profiles for ChIP and background for the entire
    genome and by chromosome.
 
-==============================================================
-VIII. QuEST software overview
-==============================================================
+## VIII. QuEST software overview
 
 QuEST performs analysis of ChIP and control sequencing data to
 identify positions in the genome that are enriched in the ChIP data
@@ -640,9 +628,7 @@ of stack collapsing can be obtained using -advanced flag during QuEST parametriz
 Data bed files produced by QuEST will contain data after the stack collapsing is applied.
 
 
-==============================================================
-VIII. FAQ
-==============================================================
+## VIII. FAQ
 
 1. Q: When trying to load bed/wig files into the genome browser
       the browser just hangs there and never displays the tracks. What
